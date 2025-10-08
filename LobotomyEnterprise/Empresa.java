@@ -1,12 +1,19 @@
 public class Empresa{
-    private setor_desenvolvimento SetorDeDesenvolvimento;
+    private SetorDeDesenvolvimento setor_desenvolvimento;
 
 
-    public Empresa(setor_desenvolvimento SetorDeDesenvolvimento){
-        this.SetorDeDesenvolvimento = SetorDeDesenvolvimento;
+    public Empresa(SetorDeDesenvolvimento setor_desenvolvimento){
+        this.setor_desenvolvimento = setor_desenvolvimento;
     }
 
 
-    public setor_desenvolvimento GetSetorDeDesenvolvimento(){return SetorDeDesenvolvimento;}
-    public void SetSetorDeDesenvolvimento(setor_desenvolvimento SetorDeDesenvolvimento){this.SetorDeDesenvolvimento = SetorDeDesenvolvimento;}
+
+    public SetorDeDesenvolvimento getSetor_desenvolvimento() {
+        return this.setor_desenvolvimento;
+    }
+
+    public void setSetor_desenvolvimento(SetorDeDesenvolvimento setor_desenvolvimento) {
+        this.setor_desenvolvimento = setor_desenvolvimento;
+    }
+   
 }
