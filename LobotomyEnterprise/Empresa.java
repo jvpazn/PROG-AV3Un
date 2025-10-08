@@ -1,6 +1,7 @@
 public class Empresa{
     private setor_desenvolvimento SetorDeDesenvolvimento;
 
+
     public Empresa(setor_desenvolvimento SetorDeDesenvolvimento){
         this.SetorDeDesenvolvimento = SetorDeDesenvolvimento;
     }
