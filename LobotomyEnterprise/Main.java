@@ -45,7 +45,8 @@ public class Main {
         Avaliacao AvalOtimizacaoOuro = new Avaliacao("SS","SS","SSS+");
 
         Avaliacao AvalprojetoAuditoriaWCorp = new Avaliacao("A","S","C");
-//SETORES
+        
+//PROJETOS
 
         // --- 1. SETOR DE DESENVOLVIMENTO DE JOGOS ---
         
@@ -104,3 +105,4 @@ public class Main {
 
     }
 }
+
