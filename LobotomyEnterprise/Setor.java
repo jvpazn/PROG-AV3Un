@@ -4,12 +4,12 @@ public class Setor {
     private String nome;
     private Proj projeto_Principal;
     private List<Proj> projetos_Secundarios;
-    private List<Funcionarios> funcionarios;
+    private List<Funcionario> funcionarios;
     private List<Estagiario> estagiarios;
     private String id_Setor;
 
     public Setor(String nome, Proj projeto_Principal, List<Proj> projetos_Secundarios,
-                 List<Funcionarios> funcionarios, List<Estagiario> estagiarios, String id_Setor){
+                 List<Funcionario> funcionarios, List<Estagiario> estagiarios, String id_Setor){
                     this.nome = nome;
                     this.projeto_Principal = projeto_Principal;
                     this.projetos_Secundarios = projetos_Secundarios;
@@ -45,11 +45,11 @@ public class Setor {
       this.projetos_Secundarios = projetos_Secundarios;
    }
 
-   public List<Funcionarios> getFuncionarios() {
+   public List<Funcionario> getFuncionarios() {
       return this.funcionarios;
    }
 
-   public void setFuncionarios(List<Funcionarios> funcionarios) {
+   public void setFuncionarios(List<Funcionario> funcionarios) {
       this.funcionarios = funcionarios;
    }
 

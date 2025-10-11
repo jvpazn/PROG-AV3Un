@@ -1,19 +1,20 @@
+import java.util.List;
+
 public class Empresa{
-    private SetorDeDesenvolvimento setor_desenvolvimento;
+    private List<Setor> Setores;
 
 
-    public Empresa(SetorDeDesenvolvimento setor_desenvolvimento){
-        this.setor_desenvolvimento = setor_desenvolvimento;
+    public Empresa(List<Setor> Setores) {
+        this.Setores = Setores;
     }
 
 
-
-    public SetorDeDesenvolvimento getSetor_desenvolvimento() {
-        return this.setor_desenvolvimento;
+    public List<Setor> getSetores() {
+        return this.Setores;
     }
 
-    public void setSetor_desenvolvimento(SetorDeDesenvolvimento setor_desenvolvimento) {
-        this.setor_desenvolvimento = setor_desenvolvimento;
+    public void setSetores(List<Setor> Setores) {
+        this.Setores = Setores;
     }
-   
+
 }

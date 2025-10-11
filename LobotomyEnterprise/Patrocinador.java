@@ -1,11 +1,9 @@
-import java.util.Date;
-
-public class Patrocinador extends Usuario {
+public class Patrocinador extends contaEmpresarial {
     private int qntdInvestida;
     private int porcentDireitos;
 
 
-    public Patrocinador(String nome, String senha, Date dataDeNascimento, String CPF, String emailPessoal, int qntdInvestida, int porcentDireitos) {
+    public Patrocinador(String nome, String senha, String dataDeNascimento, String CPF, String emailPessoal, int qntdInvestida, int porcentDireitos) {
         super(nome, senha, dataDeNascimento, CPF, emailPessoal);
         this.qntdInvestida = qntdInvestida;
         this.porcentDireitos = porcentDireitos;
@@ -27,5 +25,13 @@ public class Patrocinador extends Usuario {
     public void setPorcentDireitos(int porcentDireitos) {
         this.porcentDireitos = porcentDireitos;
     }
+
+        @Override 
+    public void dadosPublicos(){
+        System.out.println("Nome : " + getNome());
+
+
+    }
+
 
 }

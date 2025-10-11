@@ -1,25 +1,23 @@
-public class Estagiario extends contaEmpresarial {
+public class Funcionario extends contaEmpresarial {
     private String emailEmpresarial;
     private String nivelFormacao;
     private int horasSemanais;
-    private int bolsa;
-    private String dataFimEstagio;
+    private int salario ;
     private String matricula;
     private Setor setor;
-    private Funcionario Supervisor;
+    private Cargo cargo;
 
 
-    public Estagiario(String nome, String senha, String dataDeNascimento, String CPF, String emailPessoal,
-    String emailEmpresarial, String nivelFormacao, int horasSemanais, int bolsa, String dataFimEstagio, String matricula, Setor setor, Funcionario Supervisor) {
+    public Funcionario(String nome, String senha, String dataDeNascimento, String CPF, String emailPessoal,
+    String emailEmpresarial, String nivelFormacao, int horasSemanais, int salario, String matricula, Setor setor, Cargo cargo) {
         super(nome, senha, dataDeNascimento, CPF, emailPessoal);
         this.emailEmpresarial = emailEmpresarial;
         this.nivelFormacao = nivelFormacao;
         this.horasSemanais = horasSemanais;
-        this.bolsa = bolsa;
-        this.dataFimEstagio = dataFimEstagio;
+        this.salario = salario;
         this.matricula = matricula;
         this.setor = setor;
-        this.Supervisor = Supervisor;
+        this.cargo = cargo;
     }
 
 
@@ -47,20 +45,12 @@ public class Estagiario extends contaEmpresarial {
         this.horasSemanais = horasSemanais;
     }
 
-    public int getBolsa() {
-        return this.bolsa;
+    public int getSalario() {
+        return this.salario;
     }
 
-    public void setBolsa(int bolsa) {
-        this.bolsa = bolsa;
-    }
-
-    public String getDataFimEstagio() {
-        return this.dataFimEstagio;
-    }
-
-    public void setDataFimEstagio(String dataFimEstagio) {
-        this.dataFimEstagio = dataFimEstagio;
+    public void setSalario(int salario) {
+        this.salario = salario;
     }
 
     public String getMatricula() {
@@ -79,20 +69,21 @@ public class Estagiario extends contaEmpresarial {
         this.setor = setor;
     }
 
-    public Funcionario getSupervisor() {
-        return this.Supervisor;
+    public Cargo getCargo() {
+        return this.cargo;
     }
 
-    public void setSupervisor(Funcionario Supervisor) {
-        this.Supervisor = Supervisor;
+    public void setCargo(Cargo cargo) {
+        this.cargo = cargo;
     }
+
 
     @Override 
     public void dadosPublicos(){
         System.out.println("Nome : " + getNome());
         System.out.println("Setor em que trabalha : " + getSetor().getNome());
-        System.out.println("Supervisor : " + getSupervisor().getNome());
         System.out.println("Nivel de Formação : " + getNivelFormacao());
+        System.out.println("Cargo : " + getCargo().getTitulo());
 
     }
 

@@ -1,22 +1,21 @@
 import java.util.List;
-import java.util.Date;
 
 
 public class Proj {
     private String nome;
     private String conteudo;
-    private Date DataFinal;
+    private String DataFinal;
     private List<Patrocinador> patrocinadores;
+    private Avaliacao avaliacao;
 
 
-    public Proj(String nome, String conteudo, 
-                Date DataFinal, List<Patrocinador> patrocinadores){
-
-                    this.nome = nome;
-                    this.conteudo = conteudo;
-                    this.DataFinal = DataFinal;
-                    this.patrocinadores = patrocinadores;
-                }
+    public Proj(String nome, String conteudo, String DataFinal, List<Patrocinador> patrocinadores, Avaliacao avaliacao) {
+        this.nome = nome;
+        this.conteudo = conteudo;
+        this.DataFinal = DataFinal;
+        this.patrocinadores = patrocinadores;
+        this.avaliacao = avaliacao;
+    }
 
     public String getNome() {
         return this.nome;
@@ -34,11 +33,11 @@ public class Proj {
         this.conteudo = conteudo;
     }
 
-    public Date getDataFinal() {
+    public String getDataFinal() {
         return this.DataFinal;
     }
 
-    public void setDataFinal(Date DataFinal) {
+    public void setDataFinal(String DataFinal) {
         this.DataFinal = DataFinal;
     }
 
@@ -49,5 +48,13 @@ public class Proj {
     public void setPatrocinadores(List<Patrocinador> patrocinadores) {
         this.patrocinadores = patrocinadores;
     }
-    
+
+    public Avaliacao getAvaliacao() {
+        return this.avaliacao;
+    }
+
+    public void setAvaliacao(Avaliacao avaliacao) {
+        this.avaliacao = avaliacao;
+    }
+
 }
