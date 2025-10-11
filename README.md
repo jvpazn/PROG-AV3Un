@@ -71,4 +71,15 @@ O que  deverá ser entregue:
 Tudo deverá estar contido em um projeto do github, o qual deverá ter apenas o link inserido na tarefa. Na página inicial do projeto, deverá estar a descrição da ideia e o nome da equipe (não conter uma dessas duas informações incorrerá em penalidade de 0,5).
 
 Atenção! todos deverão participar da codificação.
+
+<h2>MOTIVO DA CLASSE CONTAEMPRESA SER ABSTRATA</h2>
+
+Não faz sentido existir uma conta sem uma pessoa, a classe abstrata serve para que Patrocinador, trabalhador e estagiario não tenham que repetir varias vezes.
+
+<h2>Relato pessoal de como foi trabalhar nessa avaliação</h2>
+
+<h4>João Paz</h4> 
+
+Adorei trabalhar nesse projeto, achei muito interessante a criação da uml junto dos meus colegas e me diverti muito na questão da liberdade que a gente possui para o tema no geral. e tambem pq java é uma das melhores linguagens de programação disparada. (INDISCUTIVEL)
+
 </div>
