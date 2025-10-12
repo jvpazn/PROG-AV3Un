@@ -30,7 +30,7 @@ uma pequena empresa de jogos com o nome referenciando o universo da project moon
 
 <h2>Descrição do projeto</h2>
 
-Nossa equipe possui 3 membros, nós somos pessoas simples, gostamos de jogos e gostamos de java. A decisão tomada pelos membros foi de fazer uma pequena representação de uma empresa de games. Utilizaremos classes como Empregado, Equipe de desenvolvimento de código,  Equipe de desenvolvimento de gráficos, Equipe de desenvolvimento de Soundtrack, Console etc…
+Nossa equipe possui 3 membros, nós somos pessoas simples, gostamos de jogos e gostamos de java. A decisão tomada pelos membros foi de fazer uma pequena representação de uma empresa de games. Utilizaremos classes como Funcionario, Estagiario, Setor etc…
 
 O grupo irá junto fazer tanto UML quanto a codificação. Planejamos concluir o projeto até a data de entrega ou até antes.
 
@@ -75,6 +75,7 @@ Atenção! todos deverão participar da codificação.
 <h2>MOTIVO DA CLASSE CONTAEMPRESA SER ABSTRATA</h2>
 
 Não faz sentido existir uma conta sem uma pessoa, a classe abstrata serve para que Patrocinador, trabalhador e estagiario não tenham que repetir varias vezes.
+A classe subescrita vem de dadosPublicos() que seria tipo um cartãozinho de empresa na nossa concepção
 
 <h2>Relato pessoal de como foi trabalhar nessa avaliação</h2>
 
