@@ -31,202 +31,6 @@ public class Main {
 
         Patrocinador patronSinner13 = new Patrocinador("Gregor", "BARATASMEASSUST4M", "1991-06-30", "22211100099", "LIMBUSCOMPANY13@gmail.city.com", 5500, 45);
 
-//CARGOS
-
-        Cargo gerente = new Cargo(
-            "Gerente",
-            "Gerencia os funcionários no setor onde está", 
-            23000, 
-            "Saúde mental forte, ensino superior completo");
-    
-        Cargo medio = new Cargo(
-            "Médio",
-            "Trabalhador de cargo médio, segue as ordens dos superiores", 
-            1600, 
-            "Ensino fundamental completo e experiência média no mercado de trabalho");
-
-        Cargo junior = new Cargo(
-            "Trabalhador Junior",
-            "Trabalhador Iniciante e novo as tradições da empresa, não confundir com estagiário", 
-            1100, 
-            "Ensino fundamental completo");
-
-        Cargo senior = new Cargo(
-            "Trabalhador Sênior",
-            "Trabalhador experiente e preparado para as tradições da empresa", 
-            3100, 
-            "Ensino fundamental completo e uma boa experiência como funcionário na empresa");
-    
-//FUNCIONÁRIOS
-
-        Funcionario BongBong = new Funcionario(
-            "BongBong Chi III", 
-            "Bong123bomg", 
-            "15-04-1993", 
-            "536574234-64", 
-            "bonghehe123@gmail.com", 
-            "bci@funcionario.lobEnterprise.com", 
-            "II", 
-            60, 
-            3000, 
-            "2024lobloblob-524", 
-            null, 
-            medio);
-
-        Funcionario Viktor = new Funcionario(
-            "Viktor henrique da silva", 
-            "7123e1h893UHQaS&*", 
-            "05-10-2000", 
-            "847632823-12", 
-            "vikorhsilva@gmail.com", 
-            "vhs@funcionario.lobEnterprise.com", 
-            "I", 
-            45, 
-            1600, 
-            "2024lobloblob-192", 
-            null, 
-            junior);
-
-        Funcionario Mantleholder = new Funcionario(
-            "John T. Mantleholder", 
-            "ERAM", 
-            "05-10-1974", 
-            "938747182-43", 
-            "eramjohnmantle@gmail.com", 
-            "jtm@funcionario.lobEnterprise.com", 
-            "V", 
-            70, 
-            23000, 
-            "2024lobloblob-854", 
-            null, 
-            gerente);
-
-        Funcionario Theo = new Funcionario(
-            "Theo Ferreira Schultz", 
-            "1234", 
-            "15-04-1995", 
-            "194726483-53", 
-            "theofschultz@gmail.com", 
-            "tfs@funcionario.lobEnterprise.com", 
-            "I", 
-            35, 
-            1300, 
-            "2024lobloblob-462", 
-            null, 
-            junior);
-
-        Funcionario Roberto = new Funcionario(
-            "Roberto Júnior Oliveira", 
-            "Roberto", 
-            "27-02-1979", 
-            "857439285-54", 
-            "roberto@gmail.com", 
-            "rjo@funcionario.lobEnterprise.com", 
-            "V", 
-            70, 
-            21000, 
-            "2024lobloblob-341", 
-            null, 
-            gerente);
-
-        Funcionario Roland = new Funcionario(
-            "Roland Orlandofurioso Nascimento", 
-            "1m1ssmyw1f3_123", 
-            "23-11-2005", 
-            "954837214-52", 
-            "orlandofurioso@gmail.com", 
-            "ron@funcionario.lobEnterprise.com", 
-            "V", 
-            75, 
-            30000, 
-            "2024lobloblob-182", 
-            null, 
-            gerente);
-
-        Funcionario Jobesvalda = new Funcionario(
-            "Jobesvalda Maria de Souza", 
-            "r234127ry3f3", 
-            "17-08-1980", 
-            "943179329-55", 
-            "jobesvald234@gmail.com", 
-            "jms@funcionario.lobEnterprise.com", 
-            "III", 
-            45, 
-            2100, 
-            "2024lobloblob-283", 
-            null, 
-            medio);
-
-        Funcionario Clara = new Funcionario(
-            "Clara Albuquerque Siqueira", 
-            "clarac234932h23h", 
-            "21-01-2000", 
-            "582917283-91", 
-            "claraas@gmail.com", 
-            "cas@funcionario.lobEnterprise.com", 
-            "IV", 
-            50, 
-            3200, 
-            "2024lobloblob-845", 
-            null, 
-            senior);
-
-        Funcionario Tenna = new Funcionario(
-            "Tenna Tenório de Caldas", 
-            "kingofROLYPOLYspamton", 
-            "19-12-1996", 
-            "942719472-94", 
-            "itstvtiiiime@gmail.com", 
-            "ttc@funcionario.lobEnterprise.com", 
-            "III", 
-            45, 
-            2200, 
-            "2024lobloblob-645", 
-            null, 
-            medio);
-
-        Funcionario Benicio = new Funcionario(
-            "Benício Bastos de Castro", 
-            "benbascas123#321", 
-            "22-09-1988", 
-            "948273048-86", 
-            "ben123pro@gmail.com", 
-            "bbc@funcionario.lobEnterprise.com", 
-            "IV", 
-            35, 
-            1400, 
-            "2024lobloblob-048", 
-            null, 
-            junior);
-
-        Funcionario Luana = new Funcionario(
-            "Luana miranda da silva", 
-            "Luanahenr123fdsa@", 
-            "19-03-2001", 
-            "473628374-32", 
-            "luanaa4atchetche@gmail.com", 
-            "lms@funcionario.lobEnterprise.com", 
-            "III", 
-            45, 
-            1600, 
-            "2024lobloblob-012", 
-            null, 
-            medio);
-
-        Funcionario Davi = new Funcionario(
-            "Davi Cabrito de Moura", 
-            "7)&$@$#&*@$", 
-            "14-07-1999", 
-            "593274837-23", 
-            "davihot@gmail.com", 
-            "dcm@funcionario.lobEnterprise.com", 
-            "III", 
-            45, 
-            2000, 
-            "2024lobloblob-593", 
-            null, 
-            medio);
-
 //AVALIAÇÕES
 
         // Em quesitos de avaliação, utiliza de S a F       
@@ -245,14 +49,7 @@ public class Main {
 //PROJETOS
 
         // --- 1. SETOR DE DESENVOLVIMENTO DE JOGOS ---
-        Setor devJogos = new Setor(
-            "SETOR DE DESENVOLVIMENTO DE JOGOS", 
-            null, 
-            null, 
-            Arrays.asList(BongBong), 
-            null, 
-            "1");
-        BongBong.setSetor(devJogos);
+
         // Projeto de Treino de Ia para jovens desenvolvedores
         Proj TreinoDeIa = new Proj(
         "Curso de Treinamento de IA para jogos",
@@ -305,11 +102,374 @@ public class Main {
             Arrays.asList(patronSinner12,patronSinner8),
             AvalprojetoAuditoriaWCorp);
                 
-System.out.println(BongBong.getSetor().getNome());
 
+            //CARGOS
+
+        Cargo gerente = new Cargo(
+            "Gerente",
+            "Gerencia os funcionários no setor onde está", 
+            23000, 
+            "Saúde mental forte, ensino superior completo");
+    
+        Cargo pleno = new Cargo(
+            "Pleno",
+            "Trabalhador de cargo médio, segue as ordens dos superiores", 
+            4000, 
+            "Ensino fundamental completo e experiência média no mercado de trabalho");
+
+        Cargo junior = new Cargo(
+            "Trabalhador Junior",
+            "Trabalhador Iniciante e novo as tradições da empresa, não confundir com estagiário", 
+            2000, 
+            "Ensino fundamental completo");
+
+        Cargo senior = new Cargo(
+            "Trabalhador Sênior",
+            "Trabalhador experiente e preparado para as tradições da empresa", 
+            6100, 
+            "Ensino Superior completo e uma boa experiência como funcionário na empresa");
+    
+//FUNCIONÁRIOS
+
+        Funcionario BongBong = new Funcionario(
+            "BongBong Library of ruina", 
+            "Bong123bomg", 
+            "15-04-1993", 
+            "536574234-64", 
+            "bonghehe123@gmail.com", 
+            "bbg@funcionario.lobEnterprise.com", 
+            "Ensino Superior Completo", 
+            60, 
+            7000, 
+            "Newlobloblob20XX-524", 
+            null, 
+            senior);
+
+        Funcionario Viktor = new Funcionario(
+            "Viktor henrique da silva", 
+            "7123e1h893UHQaS&*", 
+            "05-10-2000", 
+            "847632823-12", 
+            "vikorhsilva@gmail.com", 
+            "vhs@funcionario.lobEnterprise.com", 
+            "Ensino Medio Completo", 
+            45, 
+            2500, 
+            "Newlobloblob20XX-192", 
+            null, 
+            junior);
+
+        Funcionario Mantleholder = new Funcionario(
+            "John T. Mantleholder", 
+            "ERAMJohn", 
+            "05-10-1974", 
+            "938747182-43", 
+            "eramjohnmantle@gmail.com", 
+            "jtm@funcionario.lobEnterprise.com", 
+            "Doutorado", 
+            70, 
+            23000, 
+            "Newlobloblob20XX-854", 
+            null, 
+            gerente);
+
+        Funcionario Theo = new Funcionario(
+            "Theo Ferreira derfreischutz ", 
+            "1234", 
+            "15-04-1995", 
+            "194726483-53", 
+            "theofschultz@gmail.com", 
+            "tfs@funcionario.lobEnterprise.com", 
+            "Ensino Medio Completo", 
+            35, 
+            2000, 
+            "Newlobloblob20XX-462", 
+            null, 
+            junior);
+
+        Funcionario Renan = new Funcionario(
+            "Renan Aprigio dias de Moura", 
+            "CARROSLEGAIS123", 
+            "31-05-2008", 
+            "857439285-54", 
+            "RenanDias3158@gmail.com", 
+            "radm@funcionario.lobEnterprise.com", 
+            "Doutorado", 
+            70, 
+            25000, 
+            "Newlobloblob20XX-341", 
+            null, 
+            gerente);
+
+        Funcionario Roland = new Funcionario(
+            "Roland Orlandofurioso Nascimento", 
+            "1m1ssmyw1f3_123", 
+            "23-11-1993", 
+            "954837214-52", 
+            "orlandofuriosoAngelica@gmail.com", 
+            "ron@funcionario.lobEnterprise.com", 
+            "Pos-Doutorado", 
+            120, 
+            30000, 
+            "Newlobloblob20XX-182", 
+            null, 
+            gerente);
+
+        Funcionario Jailma = new Funcionario(
+            "Jailma Oliveira", 
+            "CIENCIASS0CIAIS", 
+            "17-08-1975", 
+            "943179329-55", 
+            "JailmaOliveira12345@gmail.com", 
+            "jo@funcionario.lobEnterprise.com", 
+            "Mestrado", 
+            60, 
+            5600, 
+            "Newlobloblob20XX-283", 
+            null, 
+            pleno);
+
+        Funcionario Joao = new Funcionario(
+            "Joao Victor da Paz Nascimento", 
+            "joaoGatinhosF0F1nhos", 
+            "28-05-2009", 
+            "582917283-91", 
+            "joaovitor223344joao@gmail.com", 
+            "jvpn@funcionario.lobEnterprise.com", 
+            "Doutorado", 
+            80, 
+            6210, 
+            "Newlobloblob20XX-845", 
+            null, 
+            senior);
+
+        Funcionario Tenna = new Funcionario(
+            "Tenna Tenório de Caldas", 
+            "kingofROLYPOLYspamton", 
+            "19-12-1996", 
+            "942719472-94", 
+            "itstvtiiiime@gmail.com", 
+            "ttc@funcionario.lobEnterprise.com", 
+            "Mestrado", 
+            45, 
+            3100, 
+            "Newlobloblob20XX-645", 
+            null, 
+            junior);
+
+        Funcionario Benicio = new Funcionario(
+            "Benício Bastos de Castro", 
+            "benbascas123#321", 
+            "22-09-1988", 
+            "948273048-86", 
+            "ben123pro@gmail.com", 
+            "bbc@funcionario.lobEnterprise.com", 
+            "Ensino Superior Completo", 
+            35, 
+            2300, 
+            "Newlobloblob20XX-048", 
+            null, 
+            junior);
+
+        Funcionario Luana = new Funcionario(
+            "Luana miranda da silva", 
+            "Luanahenr123fdsa@", 
+            "19-03-2001", 
+            "473628374-32", 
+            "luanaa4atchetche@gmail.com", 
+            "lms@funcionario.lobEnterprise.com", 
+            "Bacharelado", 
+            45, 
+            4534, 
+            "Newlobloblob20XX-012", 
+            null, 
+            pleno);
+
+        Funcionario Matheus = new Funcionario(
+            "Matheus Luciano de Cabritos Figueiredo", 
+            "KONOMATH3U5DA", 
+            "29-09-2008", 
+            "593274837-23", 
+            "MatheusCabritinhos@gmail.com", 
+            "mlcf@funcionario.lobEnterprise.com", 
+            "Bacharelado", 
+            45, 
+            5900, 
+            "Newlobloblob20XX-593", 
+            null, 
+            pleno);
+
+//ESTAGIARIOS
+        Estagiario Juan = new Estagiario(
+            "Juan Vila Nova Rojas Moreno", 
+            "RELAXAeAGACHA", 
+            "01-10-2008", 
+            "717888653-77", 
+            "JuanVilaAGACHA@gmail.com", 
+            "jvnrm@funcionario.lobEnterprise.com", 
+            "Cursando Ensino médio", 
+            20, 
+            630, 
+            "Newlobloblob20XX-597", 
+            "31-12-2026",
+            null, 
+            Roland);
+
+        Estagiario Tome = new Estagiario(
+            "Artut Tome Xavier", 
+            "NIKANIFATEART0RIA", 
+            "23-10-2008", 
+            "717621653-67", 
+            "TomeNIkas@gmail.com", 
+            "ATX@funcionario.lobEnterprise.com", 
+            "Cursando Ensino médio", 
+            20, 
+            500, 
+            "Newlobloblob20XX-514", 
+            "31-12-2026",
+            null, 
+            Roland);
+
+        Estagiario Demian = new Estagiario(
+            "Demian Rodrigues de Marques", 
+            "OPEQUENOpr1ncipe", 
+            "06-08-2010", 
+            "111111111-23", 
+            "DemianMANG@gmail.com", 
+            "drm@funcionario.lobEnterprise.com", 
+            "Cursando Ensino médio", 
+            25, 
+            730, 
+            "Newlobloblob20XX-505", 
+            "31-12-2026",
+            null, 
+            Renan);
+
+        Estagiario Rainha = new Estagiario(
+            "RAINHA DO ODIO JABOATAO DOS GUARARAPES", 
+            "ARCANASLAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAVE", 
+            "09-12-2011", 
+            "11122233-43", 
+            "EMNOMEDOAMOREDOODIO@gmail.com", 
+            "rdojdg@funcionario.lobEnterprise.com", 
+            "Cursando Ensino médio", 
+            30, 
+            930, 
+            "Newlobloblob20XX-629", 
+            "31-12-2026",
+            null, 
+            Renan);
+
+        Estagiario Alyson = new Estagiario(
+            "Alyson Oliveira Quimica", 
+            "JoaoQuimica", 
+            "01-10-2007", 
+            "999888653-99", 
+            "AlysonQuimica@gmail.com", 
+            "aoq@funcionario.lobEnterprise.com", 
+            "Cursando Ensino médio", 
+            10, 
+            330, 
+            "Newlobloblob20XX-888", 
+            "31-12-2026",
+            null, 
+            Mantleholder);
+
+        Estagiario Teto = new Estagiario(
+            "Kasane Teto", 
+            "MACHINEL0VE", 
+            "01-04-2008", 
+            "010101010-01", 
+            "tetoris@gmail.com", 
+            "ks@funcionario.lobEnterprise.com", 
+            "Cursando Ensino médio", 
+            30, 
+            1600, 
+            "Newlobloblob20XX-104", 
+            "31-12-2026",
+            null, 
+            Mantleholder);
+//SETORES
+        Setor devJogos = new Setor(
+            "SETOR DE DESENVOLVIMENTO DE JOGOS", 
+            TreinoDeIa, 
+            Arrays.asList(projetoMotorIlusao), 
+            Arrays.asList(Roland,Joao, Luana, Viktor), 
+            Arrays.asList(Juan,Tome), 
+            "1");
+
+        Roland.setSetor(devJogos);
+        Joao.setSetor(devJogos);
+        Luana.setSetor(devJogos);
+        Viktor.setSetor(devJogos);
+        Juan.setSetor(devJogos);
+        Tome.setSetor(devJogos);
+
+        Setor relPessoais = new Setor(
+            "SETOR DE RELACOES PESSOAIS", 
+            projetoTesteBeta, 
+            Arrays.asList(projetoIntegracaoIdentidades), 
+            Arrays.asList(Mantleholder,BongBong, Benicio, Tenna), 
+            Arrays.asList(Alyson,Teto), 
+            "2");
+
+        Mantleholder.setSetor(relPessoais);
+        BongBong.setSetor(relPessoais);
+        Benicio.setSetor(relPessoais);
+        Tenna.setSetor(relPessoais);
+        Alyson.setSetor(relPessoais);
+        Teto.setSetor(relPessoais);
+
+        Setor Financas = new Setor(
+            "SETOR DE FINANCAS", 
+            projetoOtimizacaoOuro, 
+            Arrays.asList(projetoAuditoriaWCorp), 
+            Arrays.asList(Renan,Jailma, Matheus, Theo), 
+            Arrays.asList(Demian,Rainha), 
+            "3");
+
+        Renan.setSetor(Financas);
+        Jailma.setSetor(Financas);
+        Matheus.setSetor(Financas);
+        Theo.setSetor(Financas);
+        Demian.setSetor(Financas);
+        Rainha.setSetor(Financas);
+
+        Empresa LobotomyEnterprise = new Empresa(
+            Arrays.asList(devJogos,relPessoais,Financas)
+        );
+
+    System.out.println("LOBOTOMY ENTERPRISE : SETORES");
+
+    for (Setor setor : LobotomyEnterprise.getSetores()) {
+        System.out.println(setor.getNome());
+    }
+//PRINTS E ETC
+    System.out.println("LOBOTOMY ENTERPRISE : TRABALHADORES E ESTAGIARIOS");
+    for (Setor setor : LobotomyEnterprise.getSetores()) {
+    System.out.println("\n== SETOR: " + setor.getNome() + " ==");
+    
+    System.out.println("  -- FUNCIONÁRIOS:");
+    for (Funcionario f : setor.getFuncionarios()) {
+
+        System.out.println("    - Nome: " + f.getNome() + " | Cargo: " + f.getCargo().getTitulo());
+    }
+    
+    System.out.println("  -- ESTAGIÁRIOS:");
+    for (Estagiario e : setor.getEstagiarios()) {
+        System.out.println("    - Nome: " + e.getNome() + " | Supervisor: " + e.getSupervisor().getNome());
+    }
+}
+
+    System.out.println("CONHEÇA NOSSOS GERENTES");
+    System.out.println("\n");
+    Renan.dadosPublicos();
+    System.out.println("\n");
+    Mantleholder.dadosPublicos();
+    System.out.println("\n");
+    Roland.dadosPublicos();
 
 
     }
     
 }
-
