@@ -26,11 +26,11 @@ Renan Aprigio Dias https://github.com/renandias3158
 
 <h2>LOBOTOMY ENTERPRISE</h2>
 
-uma pequena empresa de jogos com o nome referenciando o universo da project moon.
+uma pequena empresa com o nome referenciando o universo da project moon.
 
 <h2>Descrição do projeto</h2>
 
-Nossa equipe possui 3 membros, nós somos pessoas simples, gostamos de jogos e gostamos de java. A decisão tomada pelos membros foi de fazer uma pequena representação de uma empresa de games. Utilizaremos classes como Funcionario, Estagiario, Setor etc…
+Nossa equipe possui 3 membros, nós somos pessoas simples, gostamos de jogos e gostamos de java. A decisão tomada pelos membros foi de fazer uma pequena representação de uma empresa que referencia uma franquia de jogo que nós gostamos. Utilizaremos classes como Funcionario, Estagiario, Setor etc…
 
 O grupo irá junto fazer tanto UML quanto a codificação. Planejamos concluir o projeto até a data de entrega ou até antes.
 
