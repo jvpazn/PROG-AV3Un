@@ -77,10 +77,3 @@ Atenção! todos deverão participar da codificação.
 Não faz sentido existir uma conta sem uma pessoa, a classe abstrata serve para que Patrocinador, trabalhador e estagiario não tenham que repetir varias vezes.
 A classe subescrita vem de dadosPublicos() que seria tipo um cartãozinho de empresa na nossa concepção
 
-<h2>Relato pessoal de como foi trabalhar nessa avaliação</h2>
-
-<h4>João Paz</h4> 
-
-Adorei trabalhar nesse projeto, achei muito interessante a criação da uml junto dos meus colegas e me diverti muito na questão da liberdade que a gente possui para o tema no geral. e tambem pq java é uma das melhores linguagens de programação disparada. (INDISCUTIVEL)
-
-</div>
