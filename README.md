@@ -1,5 +1,5 @@
 <div align="Center">
-<h1> Projeto Java - LOS MUCHACHOS DEL LAG </h1>
+<h1> Projeto Java - losJMR </h1>
 <h5>Grupo L</h5>
 
 <br>
